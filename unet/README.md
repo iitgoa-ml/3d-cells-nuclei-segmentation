@@ -20,9 +20,20 @@ If the dataset consists of slices of a cell where each slice saved as an tif fil
 
 Run the below line for execution (Note: please change the path to the dataset folder inside the python file)
 
-''' python
 python3 stacking.py
-'''
+
 **Testing the Model**
 
 Inorder to test the model, the pretrained weights can be downloaded from the below link and use it directly.
+
+wget https://drive.google.com/file/d/1GyorsLVPLmJJctHXwUnInGqVM2Jf64rW/view?usp=sharing
+
+Use the above pre-trained weights in final_predict.py for testing. You can try the sample data present in the data folder for testing.**
+
+**Training the model**
+
+To train the model from scratch for cell segmentation, use the final_image and final_mask folder path in 3dcondensedattentionunet_single.py. The final_image consists of the series of 3D_cells and each series contains a single cell slices. final_mask folder consists of the corresponding ground_truths of the series of cells present in final_image.
+
+python3 3dcondensedattentionunet_single.py
+
+We have other versions of unet architectures like standard unet (3dunet.py), condensed_unet (3dcondensedunet_single.py) and attention_unet (3dattention_unet.py)
