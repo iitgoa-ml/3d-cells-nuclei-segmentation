@@ -32,8 +32,8 @@ Use the above pre-trained weights in final_predict.py for testing. You can try t
 
 **Training the model**
 
-To train the model from scratch for cell segmentation, use the final_image and final_mask folder path in 3dcondensedattentionunet_single.py. The final_image consists of the series of 3D_cells and each series contains a single cell slices. final_mask folder consists of the corresponding ground_truths of the series of cells present in final_image.
+To train the model from scratch for cell segmentation, use the final_image and final_mask folder path in 3dcondensedattentionunet.py. The final_image consists of the series of 3D_cells and each series contains a single cell slices. final_mask folder consists of the corresponding ground_truths of the series of cells present in final_image.
 
 python3 3dcondensedattentionunet_single.py
 
-We have other versions of unet architectures like standard unet (3dunet.py), condensed_unet (3dcondensedunet_single.py) and attention_unet (3dattention_unet.py)
+We have other versions of unet architectures like standard unet (3dunet.py), condensed_unet (3dcondensedunet.py) and attention_unet (3dattention_unet.py)
