@@ -1,4 +1,5 @@
-@anusha-devulapally, @V-Run-P please add all the data files here
+
+**Dataset**
 
 For training the deep learning model from scratch, below are the folders required (images and ground truths)
 
