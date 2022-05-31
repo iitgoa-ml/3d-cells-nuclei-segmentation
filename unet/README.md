@@ -13,8 +13,6 @@ The Packages listed below are required to be installed
 7. opencv2
 8. tqdm
 
---- version will be updated later -----
-
 **Preprocessing of the data**
 
 If the dataset consists of slices of a cell where each slice saved as an tif file, then use this step to stack the slices to a 3D cell. During the stacking, we perform few transformation techniques like making aspect ratio equal and resizing the cells to 256 x 256.
