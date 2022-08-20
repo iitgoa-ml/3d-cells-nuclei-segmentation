@@ -4,6 +4,7 @@ Following are the files:
 1. Main.m: Initialises the stack.
 2. algo_snakes_3D: Processes the stack to be given as an input to snakes algorithm. Paratemers for snakes algorith are defined in this file. 
 3. Snake3D: 3D Snakes algortihm.
+4. There are helper functions in toolbox.
 
 # DATASET:
 Dataset contains multiple cell types with each folder representing each cell type. 
