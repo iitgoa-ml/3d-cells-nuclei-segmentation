@@ -1,11 +1,13 @@
 
-**Dataset**
+# Dataset
 
-For training the deep learning model from scratch, below are the folders required (images and ground truths)
+[Short description about the data]
 
-"https://drive.google.com/file/d/1SqBszFNqwly6LsILFYyEc6e_QWrqB_gg/view?usp=sharing"
 
-"https://drive.google.com/file/d/1NVauota4nr1uI2kvt9aGkzeXgEa_813T/view?usp=sharing"
+For training the deep learning model from scratch, below are the folders required (images and true labels)
+
+1. [Images](https://drive.google.com/file/d/1SqBszFNqwly6LsILFYyEc6e_QWrqB_gg/view?usp=sharing)
+2. [True labels](https://drive.google.com/file/d/1NVauota4nr1uI2kvt9aGkzeXgEa_813T/view?usp=sharing)
 
 Sample image is uploaded in the sample_data folder
 
