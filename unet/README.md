@@ -1,6 +1,6 @@
-**Condensed-Attention UNet**
+#Condensed-Attention UNet
 
-We developed a new version of UNet which uses the advantages of an attention gate and Condensed UNet architecture.
+We developed a new version of 3D UNet which uses the advantages of an attention gate and Condensed UNet architecture.
 
 The Packages listed below are required to be installed
 
