@@ -1,4 +1,4 @@
-# Cell-Segmentation
+# On the variability in cell and nucleus shapes
 This is an implementation of active snakes algorithm in matlab.
 Following are the files:
 1. Main.m: Initialises the stack.
