@@ -3,7 +3,7 @@
 We developed a new version of 3D UNet to solve Cell Segmentation from 3D Confocal Images. It uses the advantages of an [attention gate](https://arxiv.org/abs/1808.08114) and [Condensed UNet](https://ieeexplore.ieee.org/abstract/document/9098351?casa_token=qVbQemXwQ-QAAAAA:wJMFyoqccX1yp1NLFs5IIbnQZ-x2JOGV2S8U6MLNEMIagDVInVRovhlazaRXww-VcjKoTQ) architecture to better segment the confocal images.
 
 
-<img src="https://github.com/iitgoa-ml/cell-segmentation/blob/master/unet/img/3d_caunet_page-0001.jpg" style="width: 900px; height: auto;">
+<img src="https://github.com/iitgoa-ml/3d-cells-nuclei-segmentation/blob/master/cells/CA-UNet/img/3d_caunet_page-0001.jpg" style="width: 900px; height: auto;">
 
 ## Dependencies
 The Packages listed below are required to be installed
@@ -22,7 +22,7 @@ The single cell dataset consists of single cell stacks manually cropped from the
 
 For training the model, we manually segmented the cell stack to generate the true labels. Below is the sample of single slice from an cell stack along with its true label on the right.
 
-<img src="https://github.com/iitgoa-ml/cell-segmentation/blob/master/unet/img/single_cells.jpg" style="width: 300px; height: auto;">
+<img src="https://github.com/iitgoa-ml/3d-cells-nuclei-segmentation/blob/master/cells/CA-UNet/img/single_cells.jpg" style="width: 300px; height: auto;">
 
 ## Preprocessing of the data
 
