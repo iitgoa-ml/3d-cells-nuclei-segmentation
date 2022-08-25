@@ -15,7 +15,7 @@ For running the snakes based segmentation, download the single cell dataset [her
 ## CA-UNet
 CA-UNet is applied only cells. Below image is a single slice of cell and its respective true label from the cell stack. 
 
-<img src="https://github.com/iitgoa-ml/cell-segmentation/blob/master/unet/img/single_cells.jpg" style="width: 300px; height: auto;">
+<img src="https://github.com/iitgoa-ml/3d-cells-nuclei-segmentation/blob/master/cells/CA-UNet/img/single_cells.jpg" style="width: 300px; height: auto;">
 
 For training the deep learning model, CA-UNet from scratch, below are the folders required (images and true labels)
 
