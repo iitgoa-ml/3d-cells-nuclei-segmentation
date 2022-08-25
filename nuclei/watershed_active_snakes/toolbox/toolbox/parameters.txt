@@ -1,0 +1,17 @@
+These parameters were found to be good for a couple of noisy nuclei from 
+D:\data\predicting_traction\MCF7\MCF7control_coverslip_190731\MCF-7_CytoD_190805\Trial3
+
+%options for the snake algorithm
+Options=struct;
+Options.Verbose=0;
+Options.Iterations=100;
+Options.GIterations=100;
+Options.Alpha=0.2;
+Options.Beta=0.5;
+Options.Kappa=1;
+Options.Delta=0.05;
+Options.Wline=0;
+Options.Mu=0.1;
+Options.Sigma1=1;
+Options.Sigma2=1;
+Options.Sigma3=1;
