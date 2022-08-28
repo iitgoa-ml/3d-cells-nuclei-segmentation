@@ -1,15 +1,14 @@
-# On the variability in cell and nucleus shapes
-This is an implementation of active snakes algorithm in matlab.
-Following are the files:
-1. Main.m: Initialises the stack.
-2. algo_snakes_3D: Processes the stack to be given as an input to snakes algorithm. Paratemers for snakes algorith are defined in this file. 
-3. Snake3D: 3D Snakes algortihm.
-4. There are helper functions in toolbox.
+# 3D Cells and Nuclei Segmentation 
 
-## Datasets 
-Dataset contains multiple cell types with each folder representing each cell type. 
-Each folder has stacks of different cells of the same cell type. 
-We have also supplemented the 3D Segmented outputs of each cell as matlab figures. 
+This repository is a supplement to the paper 
+**On the variability in cell and nucleus shapes** by *Anusha Devulapally, Varun Parekh, Clint Pazhayidam George, and Sreenath Balakrishnan*. This project deals with the segmentation of cells and nuclei confocal images. Folders [cells](cells/README.md) and [nuclie](nuclei/README.md) show more details. 
 
-## Watershed-Based Active Contours
-If there is a stack with multiple cells, this method detects the cells, find their approximate cell boundary and extra 3D stack of each cell to be individually segmented using active snakes algorithm. 
+
+
+## Data
+
+The folder [data](data/) contains multiple cell[/nuclei?] types where each folder representing each cell/nuclei type. 
+Each folder has stacks of different cells of the same cell type. For more details, see the [documentation](data/README.md). [Check whether this is true!]
+
+
+
