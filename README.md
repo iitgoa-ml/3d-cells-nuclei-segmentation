@@ -10,5 +10,7 @@ This repository is a supplement to the paper
 The folder [data](data/) contains multiple cell[/nuclei?] types where each folder representing each cell/nuclei type. 
 Each folder has stacks of different cells of the same cell type. For more details, see the [documentation](data/README.md). [Check whether this is true!]
 
+## Acknowledgements 
 
+@anusha-devulapally @V-Run-P please mention all sources, authors, we owe here. 
 
