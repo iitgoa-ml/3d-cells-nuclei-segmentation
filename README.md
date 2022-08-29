@@ -11,6 +11,7 @@ The folder [data](data/) contains multiple cell[/nuclei?] types where each folde
 Each folder has stacks of different cells of the same cell type. For more details, see the [documentation](data/README.md). [Check whether this is true!]
 
 ## Acknowledgements 
-
-@anusha-devulapally @V-Run-P please mention all sources, authors, we owe here. 
+We utilize the following toolboxes from the Mathworks website
+Snakes algorithm by D. Kroon, University of Twente
+Geometry methods by D. Legland, INRA
 
