@@ -4,7 +4,7 @@ image processing toolbox in matlab
 
 snakes3D library from matlab file exchange:  Dirk-Jan Kroon (2022). Snake : Active Contour (https://www.mathworks.com/matlabcentral/fileexchange/28149-snake-active-contour), MATLAB Central File Exchange. .
 
-In the dataset, we have provided the orignal stack of images with multiple cell [insert link]. We additionally process the dataset to extract stack of single cells [insert link]. We do that by using ImageJ software, 
+In the dataset, we have provided the orignal stack of images with multiple cell [insert link]. We additionally process the dataset to extract stack of single cells [insert link]. We do that by using ImageJ software, Schneider, C. A., Rasband, W. S., & Eliceiri, K. W. (2012). NIH Image to ImageJ: 25 years of image analysis. Nature Methods, 9(7), 671–675. doi:10.1038/nmeth.2089
 
 ### Procedure for extracting the individual cell stacks 
 1. Import the image sequences *ch00* of the nucleus and *ch01* of the cell (stained for actin) into ImageJ.  Use File->Import->Image Sequence command and use the syntax (.*Series003_z[0-9][0-9]_ch00.*) to  import the image sequence 
