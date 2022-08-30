@@ -4,7 +4,18 @@ image processing toolbox in matlab
 
 snakes3D library from matlab file exchange:  Dirk-Jan Kroon (2022). Snake : Active Contour (https://www.mathworks.com/matlabcentral/fileexchange/28149-snake-active-contour), MATLAB Central File Exchange. .
 
-In the dataset, we have provided the orignal stack of images with multiple cell [insert link]. We additioanlly process the dataset to extract stack of single cells. We do that by using ImageJ software, 
+In the dataset, we have provided the orignal stack of images with multiple cell [insert link]. We additionally process the dataset to extract stack of single cells [insert link]. We do that by using ImageJ software, 
+
+###Procedure for extracting the individual cell stacks 
+1. Import the image sequences *ch00* of the nucleus and *ch01* of the cell (stained for actin) into ImageJ.  Use File->Import->Image Sequence command and use the syntax (.*Series003_z[0-9][0-9]_ch00.*) to  import the image sequence 
+2. Make the maximum projection using the command Image->Stacks->Z Project of both the nucleus and  cell stacks 
+3. Use the polygon selection tool to manually draw out a cell on the maximum projection image of the cell. 
+4. Save the selection to ROI manager using the command Edit->Selection->Add to Manager 5. Transfer the cell boundary to the cell stack by selecting the stack and then selecting the boundary in the  ROI manager. 
+6. Duplicate just the part of the stack inside the cell boundary using the command Image->Duplicate 7. Clear all the regions outside the cell in the duplicated stack using the command Edit->Clear outside 8. Save the segmented cell stack into a separate folder appropriately named (Cell1, Cell2 etc.) using the  command File->Save as->Image Sequence 
+9. Repeat steps 5 to 8 for the nucleus stack and save the segmented nucleus image into the same folder 10. Repeat steps 3 to 8 for all the cells in the stack. Save each segmented cell and its nucleus stacks in  separate folders 
+11. Save all the manually drawn polygon cell boundaries of an image sequence using the save command in  the ROI manager 
+12. Import the next sequence and repeat steps 1 to 11. 
+
 
 ## single cell segmentation:
 1. Main.m: It takes the location of the cropped cell from a multicell image stack or any other single cell stack from the dataset.
