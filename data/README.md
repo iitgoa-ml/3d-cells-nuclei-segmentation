@@ -42,9 +42,9 @@ CA-UNet is applied only cells. Below image is a single slice of cell and its res
 For training the deep learning model, CA-UNet from scratch, below are the folders required (images and true labels)
 
 1. [Images](https://drive.google.com/drive/folders/1DsBemi0SJABBXLbfHH8Oc_LPZrXJgHmI?usp=sharing)
-2. [True labels](https://drive.google.com/drive/folders/1YdHcifuDtNevRbwIp3_4dVlkkHPQ-cwF?usp=sharing))
+2. [True labels](https://drive.google.com/drive/folders/1YdHcifuDtNevRbwIp3_4dVlkkHPQ-cwF?usp=sharing)
 
-Images folder comprises of single cell stacks from different cell types. True labels contains its respective masks which are manually segmented using ImageJ tool. 
+Images folder comprises of pre-processed single cell stacks from different cell types. True labels contains its respective masks which are manually segmented using ImageJ tool.
 
 
 
