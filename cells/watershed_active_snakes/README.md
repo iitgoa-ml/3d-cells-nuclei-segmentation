@@ -6,7 +6,7 @@ snakes3D library from matlab file exchange:  Dirk-Jan Kroon (2022). Snake : Acti
 
 In the dataset, we have provided the orignal stack of images with multiple cell [insert link]. We additionally process the dataset to extract stack of single cells [insert link]. We do that by using ImageJ software, 
 
-###Procedure for extracting the individual cell stacks 
+### Procedure for extracting the individual cell stacks 
 1. Import the image sequences *ch00* of the nucleus and *ch01* of the cell (stained for actin) into ImageJ.  Use File->Import->Image Sequence command and use the syntax (.*Series003_z[0-9][0-9]_ch00.*) to  import the image sequence 
 2. Make the maximum projection using the command Image->Stacks->Z Project of both the nucleus and  cell stacks 
 3. Use the polygon selection tool to manually draw out a cell on the maximum projection image of the cell. 
