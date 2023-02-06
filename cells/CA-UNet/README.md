@@ -46,7 +46,7 @@ To train the segmentation model, set the `final_image` and `final_mask` folders 
 
 We can download the pre-trained model weights from [here](https://drive.google.com/file/d/1GyorsLVPLmJJctHXwUnInGqVM2Jf64rW/view?usp=sharing). 
 
-To test the model, use the pre-trained weights in the below python file. Use the sample cell data present in [sample dataset](https://github.com/iitgoa-ml/cell-segmentation/tree/master/data/sample%20dataset) for testing.
+To test the model, use the pre-trained weights in the below python file. Use the sample cell data present in [sample dataset](https://github.com/iitgoa-ml/3d-cells-nuclei-segmentation/tree/master/cells/CA-UNet/sample%20dataset) for testing.
  
  		python3 final_predict.py
  
